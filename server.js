@@ -1,15 +1,21 @@
 const express = require('express')
 const hbs = require('express-handlebars')
 
-const server = express()
+const app = express()
 
 // Middleware
-server.engine('hbs', hbs({
+app.engine('hbs', hbs({
   defaultLayout: 'main',
   extname: 'hbs'
 }))
-server.set('view engine', 'hbs')
-server.use(express.static('public'))
-server.use(express.urlencoded({extended: false}))
+app.set('view engine', 'hbs')
+app.use(express.static('public'))
+app.use(express.urlencoded({ extended: false }))
 
-module.exports = server
+app.get('/', (req, res) => {
+  res.send("Server is working")
+})
+
+
+
+module.exports = app
