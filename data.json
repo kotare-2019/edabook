@@ -4,32 +4,35 @@
       "id": 1,
       "name": "Ben Sherwood",
       "image": "/images/ben-sherwood.jpg",
-      "blog": "https://ben-sherwood.github.io/"
+      "blog": "https://ben-sherwood.github.io/",
+      "bio": "Hi there! just me, ya boi Ben. I'm 26, from Nelson. I like pizza, video games, and cheese. Check out my blog if your bored as heck and want to increase your boredom."
     },
     {
       "id": 2,
       "name": "Oliver Petri",
       "image": "/images/Olli-small.jpg",
-      "blog": "https://github.com/OliverPetri/"
+      "blog": "https://github.com/OliverPetri/",
+      "bio": 
     },
     {
       "id": 3,
       "name": "Omphalus Kua",
       "image": "/images/ompa.jpg",
       "blog": "https://haluskua.github.io",
-      "blog": "'Maski lo wari tumas' Hi my name is Omphalus I am want to learn the javascrypt language and therefore I am here. EDA is cool! "
-    },
+      "bio": "Maski lo wari tumas' Hi my name is Omphalus I am want to learn the javascrypt language and therefore I am here. EDA is cool!"
     {
       "id": 4,
       "name": "Tom Doesburg",
       "image": "/images/tom-doesburg.jpg",
-      "blog": "https://tom-doesburg.github.io/"
+      "blog": "https://tom-doesburg.github.io/",
+      "bio": "Hi, my name is Tom Doesburg and I am from Wellington. Up until this year I had been living in France teaching English and before that I was a musician working on cruise ships. I have also spent quite a few years working in tech, in jobs that were not really that interesting. I am here because I want to learn how to code and gain some practical skills which will help me begin a new and exciting career in tech. I enjoy travelling, photography, meeting people and writing and playing music."
     },
     {
       "id": 5,
       "name": "Hamish Smith",
       "image": "/images/hamish-smith.jpg",
-      "blog": "https://hamish-w-smith.github.io/"
+      "blog": "https://hamish-w-smith.github.io/",
+      "bio": "I have worked for ten years in civil engineer in the field of water engineering. Most of my projects have focused on reducing the communities exposure to flood hazard, and improving the safety of infrastructure. In my career I have gained knowledge of specialised software tools to carry out this work, and now I have decided I need to understand how these tools are built, so I am undertaking study in Web Development at EDA Dev Academy. I want to understand how web technologies can be used to help the community and my colleagues carry out and communicate this work better. This will be needed as society faces increasing risk from these hazards due to climate change. "
     }
   ]
 }
