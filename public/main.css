@@ -42,8 +42,8 @@ body {
 .img-circle {
   border-radius: 50%;
   object-fit: cover;
-  width: 120px;
-  height: 120px;
+  width: 200px;
+  height: 200px;
 }
 
 .title {
@@ -64,7 +64,10 @@ body {
 }
 
 h1 {
+  text-transform: uppercase;
   letter-spacing: 0.15em;
+  padding-top: 10px;
+  font-size: 2.2em;
 }
 h2 {
   letter-spacing: 0.05em;
@@ -78,11 +81,35 @@ a {
 }
 
 h4{
+  font-size: 3em;
   letter-spacing: 0.05em;
   color: lightskyblue;
   text-decoration: none;
 }
 
 p{
-  width: 30%
+  background-color: rgba(6, 18, 37, 0.57);
+  width: 30%;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+  padding: 14px;
+  margin: 10px;
+  font-size: 1.32em;
+  border: 0.5px solid #243435;
+}
+
+#bioPar {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  height: 60px;
+}
+.bioLink {
+  align-self: flex-start;
+  background-color: #265a7f;
+  width: 100%;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+  margin: 8px;
 }
