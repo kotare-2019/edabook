@@ -12,7 +12,7 @@
       "name": "Oliver Petri",
       "image": "/images/Olli-small.jpg",
       "blog": "https://github.com/OliverPetri/",
-      "bio": 
+      "bio": ""
     },
     {
       "id": 3,
@@ -20,6 +20,7 @@
       "image": "/images/ompa.jpg",
       "blog": "https://haluskua.github.io",
       "bio": "Maski lo wari tumas' Hi my name is Omphalus I am want to learn the javascrypt language and therefore I am here. EDA is cool!"
+    },
     {
       "id": 4,
       "name": "Tom Doesburg",
