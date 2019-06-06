@@ -4,7 +4,8 @@
       "id": 1,
       "name": "Ben Sherwood",
       "image": "/images/ben-sherwood.jpg",
-      "blog": "https://ben-sherwood.github.io/"
+      "blog": "https://ben-sherwood.github.io/",
+      "bio": "Hi there! just me, ya boi Ben. I'm 26, from Nelson. I like pizza, video games, and cheese. Check out my blog if your bored as heck and want to increase your boredom."
     },
     {
       "id": 2,
