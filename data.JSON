@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "profiles": {
     "id": 1,
     "name": "Ben Sherwood",
@@ -10,4 +11,38 @@
     "image": "/images/Olli-small.jpg",
     "blog": "https://github.com/OliverPetri/"
   }
+=======
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Ben Sherwood",
+      "image": "/images/ben-sherwood.jpg",
+      "blog": "https://ben-sherwood.github.io/"
+    },
+    {
+      "id": 2,
+      "name": "Oliver Petri",
+      "image": "/images/Olli-small.jpg",
+      "blog": "https://github.com/OliverPetri/"
+    },
+    {
+      "id": 3,
+      "name": "Omphalus Kua",
+      "image": "/images/ompa.jpg",
+      "blog": "https://haluskua.github.io"
+    },
+    {
+      "id": 4,
+      "name": "Tom Doesburg",
+      "image": "/images/tom-doesburg",
+      "blog": "https://tom-doesburg.github.io/"
+    },
+    {
+      "id": 5,
+      "name": "",
+      "image": "",
+      "blog": ""
+    }
+  ]
+>>>>>>> 63df622ebf263f62afdb430db5d12820cb46b628
 }
