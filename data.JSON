@@ -26,9 +26,9 @@
     },
     {
       "id": 5,
-      "name": "",
-      "image": "",
-      "blog": ""
+      "name": "Hamish Smith",
+      "image": "/images/hamish-smith.jpg",
+      "blog": "https://hamish-w-smith.github.io/"
     }
   ]
 }
