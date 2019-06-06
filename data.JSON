@@ -39,10 +39,14 @@
     },
     {
       "id": 5,
-      "name": "",
-      "image": "",
-      "blog": ""
+      "name": "Hamish Smith",
+      "image": "/images/hamish-smith.jpg",
+      "blog": "https://hamish-w-smith.github.io/"
     }
   ]
+<<<<<<< HEAD
 >>>>>>> 63df622ebf263f62afdb430db5d12820cb46b628
 }
+=======
+}
+>>>>>>> 90b3bbcde7e62aa1f5c0b2b465b55cef9f25773f
