@@ -6,19 +6,27 @@ const data = require('../data.json')
 //index route
 router.get('/', (req, res) => {
     res.send('is it working?')
-//   res.redirect('/profiles') // update to redirect to profiles
+    //   res.redirect('/profiles') // update to redirect to profiles
 })
 
-// router.get('/profiles', (req, res) => {
-//   res.render('../views/profiles/index', data) // displays profiles
-// })
+router.get('/profiles', (req, res) => {
+    const viewData = {
+        data: data
+    }
+    res.render('home', data) // displays profiles
 
-// router.get("/profiles/:id", (req, res) => {
-//   const profile = data.profiles.find(function (item) {
-//     return item.id == req.params.id;
-//   });
-//   res.render("profiles/view", profile);
-// });
+})
+
+router.get("/profiles/:id", (req, res) => {
+    const viewData = {
+        data: data
+    }
+
+    const profile = data.profiles.find(function (item) {
+        return item.id == req.params.id;
+    });
+    res.render("partials/profileView", profile);
+});
 
 // router.get("/profiles/edit/:id", (req, res) => {
 //   const puppy = data.profiles.find(function (item) {
