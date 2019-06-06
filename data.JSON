@@ -1,8 +1,34 @@
 {
-  "profiles": {
-    "id": 1,
-    "name": "Ben Sherwood",
-    "image": "/images/ben-sherwood.jpg",
-    "blog": "https://ben-sherwood.github.io/"
-  }
+  "profiles": [
+    {
+      "id": 1,
+      "name": "Ben Sherwood",
+      "image": "/images/ben-sherwood.jpg",
+      "blog": "https://ben-sherwood.github.io/"
+    },
+    {
+      "id": 2,
+      "name": "",
+      "image": "",
+      "blog": ""
+    },
+    {
+      "id": 3,
+      "name": "",
+      "image": "",
+      "blog": ""
+    },
+    {
+      "id": 4,
+      "name": "",
+      "image": "",
+      "blog": ""
+    },
+    {
+      "id": 5,
+      "name": "",
+      "image": "",
+      "blog": ""
+    }
+  ]
 }
