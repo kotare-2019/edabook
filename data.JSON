@@ -4,5 +4,10 @@
     "name": "Ben Sherwood",
     "image": "/images/ben-sherwood.jpg",
     "blog": "https://ben-sherwood.github.io/"
+
+    "id": 2,
+    "name": "Oliver Petri",
+    "image": "/images/Olli-small.jpg",
+    "blog": "https://github.com/OliverPetri/"
   }
 }
