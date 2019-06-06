@@ -1,32 +1,33 @@
 const express = require('express')
 const router = express.Router()
-const data = require('../data.json')
+const data = require('./data')
 // const fs = require("fs")
 
 //index route
 router.get('/', (req, res) => {
-    res.send('is it working?')
-    //   res.redirect('/profiles') // update to redirect to profiles
+    // res.send('is it working?')
+    res.redirect('/profiles') // update to redirect to profiles
 })
 
 router.get('/profiles', (req, res) => {
     const viewData = {
         data: data
     }
-    res.render('home', data) // displays profiles
+    console.log(viewData.data)
+    res.render('home', viewData.data)
 
 })
 
-router.get("/profiles/:id", (req, res) => {
-    const viewData = {
-        data: data
-    }
+// router.get("/profiles/:id", (req, res) => {
+//     const viewData = {
+//         data: data
+//     }
 
-    const profile = data.profiles.find(function (item) {
-        return item.id == req.params.id;
-    });
-    res.render("partials/profileView", profile);
-});
+//     const profile = data.profiles.find(function (item) {
+//         return item.id == req.params.id;
+//     });
+//     res.render("partials/profileView", profile);
+// });
 
 // router.get("/profiles/edit/:id", (req, res) => {
 //   const puppy = data.profiles.find(function (item) {
