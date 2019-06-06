@@ -1,4 +1,4 @@
-<form class="form" action="/profile/edit/{{id}}" method="post">
+<form class="form" action="/profiles/edit/{{id}}" method="post">
   <img class="img-circle" src="{{image}}" alt="{{name}}">
   <label for="name" class="form-item">
     Name:
@@ -6,13 +6,13 @@
   </label>
 
   <label for="Blog" class="form-item">
-    Blog:
-    <input type="text" name="breed" value="{{breed}}">
+    Blog Link:
+    <input type="text" name="blog" value="{{blog}}">
   </label>
 
-  <label for="owner" class="form-item">
+  <label for="bio" class="form-item">
     Bio:
-    <input type="text" name="owner" value="{{owner}}">
+    <input type="text" name="bio" value="{{bio}}">
   </label>
 
   <input type="hidden" name="image" value="{{image}}">
