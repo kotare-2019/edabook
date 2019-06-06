@@ -8,15 +8,15 @@
     },
     {
       "id": 2,
-      "name": "",
-      "image": "",
-      "blog": ""
+      "name": "Oliver Petri",
+      "image": "/images/Olli-small.jpg",
+      "blog": "https://github.com/OliverPetri/"
     },
     {
       "id": 3,
-      "name": "",
-      "image": "",
-      "blog": ""
+      "name": "Omphalus Kua",
+      "image": "/images/ompa.jpg",
+      "blog": "https://haluskua.github.io"
     },
     {
       "id": 4,
