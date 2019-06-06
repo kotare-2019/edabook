@@ -1,6 +1,6 @@
 const express = require('express')
 const router = express.Router()
-const data = require('../data.json')
+const data = require('./data')
 // const fs = require("fs")
 
 const viewData = {
@@ -9,20 +9,30 @@ const viewData = {
 
 //index route
 router.get('/', (req, res) => {
-    res.send('is it working?')
-//   res.redirect('/profiles') // update to redirect to profiles
+    // res.send('is it working?')
+    res.redirect('/profiles') // update to redirect to profiles
 })
 
-// router.get('/profiles', (req, res) => {
-//   res.render('../views/profiles/index', data) // displays profiles
-// })
+router.get('/profiles', (req, res) => {
+    const viewData = {
+        data: data
+    }
+    console.log(viewData.data)
+    res.render('home', viewData.data)
 
-// router.get("/profiles/:id", (req, res) => {
-//   const profile = data.profiles.find(function (item) {
-//     return item.id == req.params.id;
-//   });
-//   res.render("profiles/view", profile);
-// });
+})
+
+router.get("/profiles/:id", (req, res) => {
+    const viewData = {
+        data: data
+    }
+    console.log(viewData.data)
+
+    const profile = viewData.data.profiles.find(item => {
+        return item.id == req.params.id;
+    });
+    res.render("profile", profile);
+});
 
 // router.get("/profiles/edit/:id", (req, res) => {
 //   const puppy = data.profiles.find(function (item) {
