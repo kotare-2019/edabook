@@ -3,6 +3,10 @@ const router = express.Router()
 const data = require('./data')
 // const fs = require("fs")
 
+const viewData = {
+    data: data
+}
+
 //index route
 router.get('/', (req, res) => {
     // res.send('is it working?')
