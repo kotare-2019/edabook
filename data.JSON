@@ -20,15 +20,19 @@
     },
     {
       "id": 4,
-      "name": "",
-      "image": "",
-      "blog": ""
+      "name": "Tom Doesburg",
+      "image": "/images/tom-doesburg",
+      "blog": "https://tom-doesburg.github.io/"
     },
     {
       "id": 5,
-      "name": "",
-      "image": "",
-      "blog": ""
+      "name": "Hamish Smith",
+      "image": "/images/hamish-smith.jpg",
+      "blog": "https://hamish-w-smith.github.io/"
     }
   ]
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1e1c43d0f5bbe210119b417eb98949efe7fabe7f
