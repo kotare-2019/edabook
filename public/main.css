@@ -1,6 +1,10 @@
 body {
-  background-color: black;
-  font-family: 'Spirax', cursive;
+  background: url('./images/devs.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+  /* font-family: 'Spirax', cursive; */
+  font-family: 'Josefin Slab', serif;
   color: white;
 }
 
@@ -8,18 +12,24 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  border: 1px solid slategrey;
+  margin-top: 10px;
+  align-items: center;
 }
 
 .app {
   display: flex;
   flex-direction: column;
+  height: 100vh;
+  background-color: rgba(1, 35, 50, 0.87);
+
 }
 
 .puppy-list {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 50px;
+  margin: 40px;
 }
 
 .puppy {
@@ -32,12 +42,13 @@ body {
 .img-circle {
   border-radius: 50%;
   object-fit: cover;
-  width: 230px;
-  height: 230px;
+  width: 120px;
+  height: 120px;
 }
 
 .title {
   text-align: center;
+  margin-top: 50px;
 }
 
 .nav {
@@ -50,4 +61,18 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  letter-spacing: 0.15em;
+}
+h2 {
+  letter-spacing: 0.05em;
+}
+
+a {
+    color: lightskyblue;
+    letter-spacing: 0.3em;
+    font-size: 1.2em;
+    text-decoration: none;
 }
