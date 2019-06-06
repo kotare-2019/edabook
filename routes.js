@@ -18,16 +18,17 @@ router.get('/profiles', (req, res) => {
 
 })
 
-// router.get("/profiles/:id", (req, res) => {
-//     const viewData = {
-//         data: data
-//     }
+router.get("/profiles/:id", (req, res) => {
+    const viewData = {
+        data: data
+    }
+    console.log(viewData.data)
 
-//     const profile = data.profiles.find(function (item) {
-//         return item.id == req.params.id;
-//     });
-//     res.render("partials/profileView", profile);
-// });
+    const profile = viewData.data.profiles.find(item => {
+        return item.id == req.params.id;
+    });
+    res.render("profile", profile);
+});
 
 // router.get("/profiles/edit/:id", (req, res) => {
 //   const puppy = data.profiles.find(function (item) {
