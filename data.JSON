@@ -1,17 +1,4 @@
 {
-<<<<<<< HEAD
-  "profiles": {
-    "id": 1,
-    "name": "Ben Sherwood",
-    "image": "/images/ben-sherwood.jpg",
-    "blog": "https://ben-sherwood.github.io/"
-
-    "id": 2,
-    "name": "Oliver Petri",
-    "image": "/images/Olli-small.jpg",
-    "blog": "https://github.com/OliverPetri/"
-  }
-=======
   "profiles": [
     {
       "id": 1,
@@ -44,9 +31,4 @@
       "blog": "https://hamish-w-smith.github.io/"
     }
   ]
-<<<<<<< HEAD
->>>>>>> 63df622ebf263f62afdb430db5d12820cb46b628
 }
-=======
-}
->>>>>>> 90b3bbcde7e62aa1f5c0b2b465b55cef9f25773f
