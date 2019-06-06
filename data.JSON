@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "id": 1,
+    "name": "Ben Sherwood",
+    "image": "/images/ben-sherwood.jpg",
+    "blog": "https://ben-sherwood.github.io/"
+  }
+}
