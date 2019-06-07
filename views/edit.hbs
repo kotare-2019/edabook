@@ -1,21 +1,26 @@
 <form class="form" action="/profiles/edit/{{id}}" method="post">
   <img class="img-circle" src="{{image}}" alt="{{name}}">
-  <label for="name" class="form-item">
-    Name:
-    <input type="text" name="name" value="{{name}}">
-  </label>
 
-  <label for="Blog" class="form-item">
-    Blog Link:
-    <input type="text" name="blog" value="{{blog}}">
-  </label>
+  <div id="labelBox">
+    <label for="name" class="form-item">
+      Name:
+      <input type="text" name="name" value="{{name}}">
+    </label>
 
-  <label for="bio" class="form-item">
-    Bio:
-    <input type="text" name="bio" value="{{bio}}">
-  </label>
+    <label for="Blog" class="form-item">
+      Blog:
+      <input type="text" name="blog" value="{{blog}}">
+    </label>
 
-  <input type="hidden" name="image" value="{{image}}">
+    <label for="bio" class="form-item">
+      Bio:
+      <input type="text" name="bio" value="{{bio}}">
+    </label>
 
-  <input type="submit" name="" value="Submit">
+    <input type="hidden" name="image" value="{{image}}">
+  </div>
+
+  <input class="submit" type="submit" name="" value="Submit">
+
+
 </form>
