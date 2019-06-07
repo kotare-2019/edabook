@@ -17,7 +17,6 @@ router.get("/profiles", (req, res) => {
     const viewData = {
         data: data
     };
-    console.log(viewData.data);
     res.render("home", viewData.data);
 });
 
