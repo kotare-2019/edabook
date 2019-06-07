@@ -56,7 +56,6 @@ router.post("/create", (req, res) => {
     bio: req.body.bio,
     image: req.body.image
   };
-  console.log(data);
   data.profiles.push(newProfile);
 
   writeUpdateToFile(data, () => res.redirect("/profiles")); //Redirect goes to urls render to views
