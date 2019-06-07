@@ -40,7 +40,7 @@ router.get("/profiles/edit/:id", (req, res) => {
     res.render("edit", profile);
 });
 
-router.post("/profile/edit/:id", (req, res) => {
+router.post("/profiles/edit/:id", (req, res) => {
     let update = req.body; //form data
     console.log("REQ BODY: ", update);
 
