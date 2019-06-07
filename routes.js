@@ -32,6 +32,7 @@ router.get("/create", (req, res) => {
   res.render("create", {});
 });
 
+
 //EDIT POST
 router.post("/profile/edit/:id", (req, res) => {
   let update = req.body; //form data
