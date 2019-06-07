@@ -97,7 +97,7 @@ h4{
   width: 100%;
   display: flex; 
   align-self: flex-start;
-  font-size: 2em;
+  font-size: 1.5em;
   color: #fcfeff;
   text-decoration: none;
   margin: 12px;
@@ -155,8 +155,8 @@ p{
 }
 
 #labelBox, input {
-  padding: 6px;
-  margin: 5px;
+  padding: 15px;
+  margin: 15px;
 
 }
 .submit {
@@ -168,6 +168,14 @@ p{
 }
 
 .submit:hover {
-  background-color: greenyellow;
+  background-color: #77A7FF;
   cursor: pointer;
+}
+
+#navbox {
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  margin: 0 auto;
+  
 }
