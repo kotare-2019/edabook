@@ -34,7 +34,7 @@ router.get("/create", (req, res) => {
 
 
 //EDIT POST
-router.post("/profile/edit/:id", (req, res) => {
+router.post("/profiles/edit/:id", (req, res) => {
   let update = req.body; //form data
   console.log("REQ BODY: ", update);
 
@@ -44,6 +44,9 @@ router.post("/profile/edit/:id", (req, res) => {
   profileToUpdate.name = update.name;
   profileToUpdate.blog = update.blog;
   profileToUpdate.bio = update.bio;
+
+
+
 
   //Write the entire array back into the JSON file
   writeUpdateToFile(data, () => res.redirect("/profiles/" + req.params.id)); //Redirect goes to urls render to views
