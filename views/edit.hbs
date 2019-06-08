@@ -3,24 +3,26 @@
 
   <div id="labelBox">
     <label for="name" class="form-item">
-      Name:
-      <input type="text" name="name" value="{{name}}">
+      <h3>Name:</h3>
+      <input class="writeBox" type="text" name="name" value="{{name}}">
     </label>
 
     <label for="Blog" class="form-item">
-      Blog:
-      <input type="text" name="blog" value="{{blog}}">
+      <h3>Blog Link:</h3>
+      <input class="writeBox" type="text" name="blog" value="{{blog}}">
     </label>
 
     <label for="bio" class="form-item">
-      Bio:
-      <input type="text" name="bio" value="{{bio}}">
+      <h3> Bio:</h3>
+      <div id="scrollable"><input class="writeBox" type="text" size="60" name="bio" value="{{bio}}">
+      <button onclick="selectText()">Select text</button>
+      </div>
     </label>
 
-    <input type="hidden" name="image" value="{{image}}">
+    <input class="writeBox" type="hidden" name="image" value="{{image}}">
   </div>
 
   <input class="submit" type="submit" name="" value="Submit">
 
-
+ 
 </form>
