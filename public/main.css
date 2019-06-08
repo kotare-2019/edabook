@@ -4,6 +4,7 @@ body {
   background-position: center;
   background-repeat: repeat; */
   /* font-family: 'Spirax', cursive; */
+  background-color: #3578e5;
   font-family: 'EDA Book Slab', serif;
   color: white;
 }
@@ -12,18 +13,12 @@ body {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 1px solid slategrey;
-  margin-top: 10px;
   align-items: center;
 }
 
 .app {
   display: flex;
   flex-direction: column;
-  height: 100vh;
-
-  background-color: #3578e5;
-
 }
 
 .puppy-list {
@@ -31,39 +26,51 @@ body {
   flex-direction: column;
   align-items: center;
   margin: 40px;
+  /* background-color: lightsteelblue; */
+  border: 1px solid #48aca6;
+  margin: auto;
+  padding: 16px;
+  border-radius: 7px;
+  opacity: 0.66;
+}
+.puppy-list:hover {
+  opacity: 1;
 }
 
 .puppy {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+  /* flex-direction: column; */
+  align-items: flex-start;
+  justify-content: space-between;
   margin: 30px;
-  width: 60%;
-  height: 90%;
+  width: 90%;
+  height: auto;
   align-self: center;
-
-  border-radius: 20px;
-  border: 0.5px solid #243435;
-  background-color: #1d3c78;
+  border-radius: 8px;
 }
 
 .img-circle {
   border-radius: 50%;
   object-fit: cover;
-  width: 200px;
-  height: 200px;
+  width: 140px;
+  height: 140px;
+  box-shadow: 3em
+}
+.img-circle:hover {
+  border-radius: 12%;  
+  transition-duration: 100ms;
+  box-shadow: #b894a0;
+  background-color: #9b415f;
 }
 
 .title {
   text-align: center;
-  margin-top: 50px;
 }
 
 .nav {
   text-align: center;
   color: white;
-  height: 70px;
+  height: 25px;
   padding: 0 15px;
 }
 
@@ -73,12 +80,20 @@ body {
   align-items: center;
   font-family: 'Roboto', sans-serif;
 }
+.form-item {
+  background-color: lightsteelblue;
+  padding: 2px 8px;
+  color: black;
+}
+
+.writeBox {
+  width: 98%;
+}
 
 h1 {
-  text-transform: uppercase;
   padding-top: 10px;
   font-family: 'Helvetica Neu Bold', sans-serif;
-  font-size: 2.42em;
+  font-size: 2.5em;
 
 }
 h2 {
@@ -89,33 +104,32 @@ h2 {
 a {
     color: lightskyblue;
     font-size: 1.2em;
+    font-weight: bold;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
 
 }
 
 h4{
-  width: 100%;
+  width: 87%;
   display: flex; 
   align-self: flex-start;
-  font-size: 1.5em;
-  color: #fcfeff;
+  letter-spacing: 0.02em;
+  color: #fff;
   text-decoration: none;
-  margin: 12px;
-  margin-left: 10%;
-  font-weight: bold;
+  margin: 0;
+  font-weight: lighter;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 p{
   background-color: #e9ebee;
-  width: 79.5%;
-  line-height: 1.5em;
+  line-height: 1.65em;
   letter-spacing: 0.03em;
-  padding: 10px;
+  padding: 22px;
   margin: 20px;
-  font-size: 1.32em;
-  border-radius: 20px;
+  font-size: 1em;
+  border-radius: 4px;
   color: #444950;
   font-family: Helvetica, sans-serif;
 
@@ -123,21 +137,35 @@ p{
 
 #bioPar {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
-  height: 60px;
-  width: 85%;
+}
+.oneCflex {
+  border: solid #6ca4b6;
+  padding: 40px;
+}
+.wrapCflex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 68%;
+}
+.bioText {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
 }
 .bioLink {
   align-self: flex-start;
-  background-color: #dae3f1;
-  width: 100%;
-  padding: 10px;
-  font-weight: bold;
-  font-size: 1.2em;
+  font-weight: normal;
+  font-size: 1em;
+  letter-spacing: 0.02em;
   text-align: center;
-  border-radius: 20px;
-  margin: 8px;
-  color: #0f1a0f;
+  font-style: italic;
+  border-radius: 2px;
+  color: lightsteelblue;
+  text-decoration: underline;
 }
 
 .form {
@@ -153,14 +181,16 @@ p{
   display: flex;
   flex-flow: column;
   padding: 20px;
+  width: 360px;
   align-items: space-between;
 }
 
 #labelBox, input {
-  padding: 15px;
-  margin: 15px;
+  padding: 8px;
+  margin: 8px 0;
   margin-left: 0;
-  width: 450px;
+  width: 60%;
+  background-color: ghostwhite;
   font-size: 1em;
   display: flex;
   border-radius: 6px;
@@ -168,6 +198,7 @@ p{
   justify-content: space-between;
 
 }
+
 .submit {
   display: flex;
   justify-content: center;
@@ -179,16 +210,46 @@ p{
   text-align: center;
 }
 
+.scrollable {
+  width: 400px;
+  height: 250px;
+  overflow: auto; 
+  text-overflow: ellipsis;
+
+}
+#headerbar {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  margin-left: 6%;
+  align-items: center;
+  height: 120px;
+}
+.edaLogo {
+  width: 26%;
+}
+
 .submit:hover {
   background-color: #77A7FF;
   cursor: pointer;
 }
-
+.nav {
+  margin: 12px;
+  letter-spacing: 0.02em;
+  font-weight: normal;
+}
+.nav:hover {
+  color: #243435;
+  cursor: pointer;
+  text-decoration-color: #243435;
+}
 #navbox {
   display: flex;
   width: 90%;
-  /* justify-content: space-between; */
   margin: 0 auto;
+  margin-top: 10px;
   align-self: flex-start;
+  background-color: lightsteelblue;
+  margin-bottom: 28px
   
 }

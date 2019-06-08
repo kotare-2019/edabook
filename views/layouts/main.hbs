@@ -7,20 +7,29 @@
   <link href="https://fonts.googleapis.com/css?family=Spirax" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
-  <link rel="./HFont/Helvetica Neu Bold.ttf" rel="stylesheet">
+  <link href="./HFont/Helvetica Neu Bold.ttf" rel="stylesheet">
   <link rel="stylesheet" href="/main.css">
 </head>
 
 <body>
   <div class="app">
-    <h1 class="title">{eda:book}</h1>
+    <div id="headerbar">
+      <img class="edaLogo" src="./images/edalogo.png" alt="eda logo"> 
+      <h1 class="title">E<i>da</i>book</h1>
+      </div>
     <div id="navbox">
       <a class="nav" href="/profiles">Home</a>
       <a class="nav" href="/create">Add Profile</a>
     </div>
     {{{body}}}
-
   </div>
 </body>
+<script type="text/javascript">
+  function selectText() {
+    const input = document.getElementById('scrollable');  
+    input.focus();
+    input.setSelectionRange(2, 5);
+  }
+</script>
 
 </html>
