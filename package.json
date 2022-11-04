@@ -21,7 +21,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "express-handlebars": "^3.1.0",
-    "heroku": "^0.2.0",
+    "heroku": "^7.65.0",
     "jest": "^24.8.0",
     "nodemon": "^1.18.4",
     "supertest": "^3.3.0"
